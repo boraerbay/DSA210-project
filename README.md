@@ -19,7 +19,7 @@ A strong higher education system is often associated with positive societal outc
 - **Description:**  
   This dataset includes information on the global rankings of universities, detailing ranking positions of top institutions by country. This data can be aggregated to assess the overall strength of a country’s higher education system.
 - **Source and Access:**  
-  - Provided as a CSV file (`top universities.csv`).
+  - Provided as a CSV file (`global_ranking_universities_2024.csv`).
   - **Kaggle Reference:** [Global University Rankings on Kaggle](https://www.kaggle.com/datasets/gauravduttakiit/world-university-rankings) 
 
 ## Project Proposal and Methodology
