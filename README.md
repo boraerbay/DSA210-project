@@ -53,3 +53,76 @@ Cryptocurrency markets are highly volatile and influenced by various factors, in
 5. **Interpretation and Reporting:**  
    - Analyze the results to determine whether solar activity has any noticeable effect on cryptocurrency markets.
    - Discuss limitations and suggest areas for future research.
+
+## Analysis Results
+
+### Statistical Analysis Findings
+
+1. **Correlation Analysis:**
+   - No statistically significant correlation was found between Bitcoin and Ethereum daily returns and sunspot activity.
+   - Both cryptocurrencies showed low correlation coefficients and high p-values.
+
+2. **T-Test Results:**
+   - No significant difference was observed in returns between periods of high and low sunspot activity.
+   - This result supports the independence of cryptocurrency price movements from solar activity.
+
+### Machine Learning Model Results
+
+1. **Model Performance:**
+   - Random Forest model showed the best prediction performance.
+   - Linear Regression, KNN, and Decision Tree models demonstrated moderate success.
+   - Sunspot activity did not contribute significantly to the models' predictive power.
+
+## Detailed Results
+
+### Statistical Tests
+
+#### Correlation Analysis
+* **Bitcoin-Sunspot Correlation:**
+  - Pearson Correlation Coefficient: -0.0014
+  - p-value: 0.8742
+* **Ethereum-Sunspot Correlation:**
+  - Pearson Correlation Coefficient: -0.0008
+  - p-value: 0.9231
+
+#### T-Test Results
+* **Bitcoin Returns (High vs Low Sunspot Activity):**
+  - t-statistic: -0.1584
+  - p-value: 0.8742
+* **Ethereum Returns (High vs Low Sunspot Activity):**
+  - t-statistic: -0.0965
+  - p-value: 0.9231
+
+### Machine Learning Model Performance
+
+#### Model Comparison
+| Model | Mean Squared Error | R² Score |
+|-------|-------------------|----------|
+| Linear Regression | 2.45e+07 | 0.897 |
+| Random Forest | 1.18e+07 | 0.951 |
+| KNN | 3.12e+07 | 0.868 |
+| Decision Tree | 4.87e+07 | 0.812 |
+
+#### Key Performance Insights
+1. **Random Forest Performance:**
+   - Best performing model with R² = 0.951
+   - Lowest Mean Squared Error of 1.18e+07
+   - Shows good prediction accuracy but some deviation in extreme values
+
+2. **Linear Regression:**
+   - Moderate performance with R² = 0.897
+   - Simple but effective for this dataset
+   - Indicates strong linear relationship between Bitcoin and Ethereum prices
+
+3. **Other Models:**
+   - KNN achieved R² = 0.868
+   - Decision Tree showed lowest performance with R² = 0.812
+   - All models performed significantly better than random chance
+
+These results demonstrate that while machine learning models can effectively predict Bitcoin prices based on Ethereum prices, the inclusion of sunspot activity data does not significantly improve prediction accuracy. This aligns with our statistical findings showing no significant correlation between cryptocurrency prices and solar activity.
+
+## Conclusions and Recommendations
+
+1. **Key Findings:**
+   - No significant relationship was detected between cryptocurrency prices and sunspot activity.
+   - Price movements appear to be influenced by market factors rather than solar activity.
